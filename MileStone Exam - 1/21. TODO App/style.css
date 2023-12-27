@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'poppins', sans-serif;
+}
+
+@media screen {
+    
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 100px 0px ;
+    }
+
+    .conatainer-flex {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-self:flex-start ;
+        width: 300px;
+        gap: 10px ;
+        padding: 15px;
+        border: 3px solid black;
+        box-shadow: 5px 5px 7px 7px yellow;
+        border-radius: 15px;
+        background-color: greenyellow;
+    }
+
+    .conatainer-flex h1 {
+        font-size: 35px;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px #ffff00;
+        color: #f5f5f5;
+        margin-bottom: 50px; 
+    }
+
+    .conatainer-flex label {
+        font-size: 18px;
+        color:black;
+        font-weight: 700;
+        transform: translateY(-65px);
+        transition: .5s;
+    }
+
+    .conatainer-flex input {
+        width: 100%;
+        padding-bottom: 5px;
+        font-size: 20px;
+        border: 2px solid black;
+        color: blueviolet;
+        background-color: whitesmoke;
+        transition: .5s;
+    }
+
+    .conatainer-flex button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 15px;
+        font-weight: 700;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: #000000;
+        background-color: blue;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .conatainer-flex button:hover {
+        transform: translateY(-4px);
+        background-color: red;
+    }
+
+    .flex {
+        width: 300px;
+        min-height: 240px;
+        padding: 15px;
+        border: 3px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px 6px yellow;
+        background-color: greenyellow;
+    }
+
+    .flex p {
+        font-size: 35px;
+        font-weight: 600;
+        text-shadow: 1px 1px 3px #ffff00;
+        color: #f5f5f5;
+        margin-bottom: 50px; 
+        text-align: center;
+    }
+
+    .flex ul {
+        padding-inline: 25px;
+    }
+
+    .flex li {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 5px;
+        color: blueviolet;
+    }
+
+    @media screen and (max-width : 680px ) {
+        
+        section {
+            flex-direction: column;
+        }
+
+        .conatainer-flex {
+            align-self: center;
+        }
+
+    }
+
+}
