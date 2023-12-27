@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@media screen {
+    
+
+div {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: greenyellow;
+    color: black;
+    padding-block: 5px;
+   
+}
+
+div {
+    border: 3px solid black;
+    border-radius: 15px ;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#result {
+    border: 2px solid black;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+ div h1 {
+    padding-left: 90px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}  
+
+
+div button {
+    width: 100%;
+    padding: 6px 10px ;
+    font-size: 18px;
+    transition: .3s;
+    margin-top: 15px;
+    background-color: #008bdc;
+    border: 1px solid black;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ div button:hover {
+    transform: translateY(-4px);
+    background-color: red;
+}
+
+ div label{
+    font-size: 18px;
+    margin-block: 15px ;
+    color: #191919;
+}
+
+ div input {
+    width: 100%;
+    padding: 6px 10px ;
+    font-size: 18px;
+    transition: .3s;
+}
+
+ div input:focus {
+    border: 1px solid #1010f0cd;
+}
+ 
+}
